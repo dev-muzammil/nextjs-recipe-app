@@ -22,10 +22,10 @@ const RecipeList = async () => {
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 m-4">
         {recipeList.map((recipe) => {
           return (
-            <div className="mx-auto">
+            <div className="mx-auto" key={recipe.id}>
               <Link href={`/recipe-list/${recipe.id}`}>
                 <Card
-                  key={recipe.id}
+                  
                   className="max-w-sm"
                   imgAlt={recipe.name}
                   imgSrc={recipe.image}

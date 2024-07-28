@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const RecipeDetail = async ({ params }) => {
@@ -10,10 +11,12 @@ const RecipeDetail = async ({ params }) => {
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container px-5 py-12 mx-auto">
           <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <img
+            <Image
               alt="ecommerce"
               className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
               src={recipe.image}
+              width={500}
+              height={500}
             />
             <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
               <h2 className="text-xm title-font text-gray-900 tracking-widest">

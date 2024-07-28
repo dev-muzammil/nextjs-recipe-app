@@ -1,5 +1,6 @@
 'use client'
 import { Button } from "flowbite-react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { ReactTyped } from "react-typed";
@@ -30,10 +31,12 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
+            <Image
               className="object-cover object-center rounded"
               alt="hero"
-              src="heroimage.webp"
+              src="/heroimage.webp"
+              width={500}
+              height={500}
             />
           </div>
         </div>
