@@ -33,7 +33,7 @@ const RecipeList = async () => {
                   <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     {recipe.name}
                   </h5>
-                  <div className=" flex justify-between">
+                  <div className=" flex justify-between flex-col md:flex-row">
                     <p className="font-semibold text-gray-900 dark:text-gray-400">
                       {recipe.cuisine}
                     </p>
