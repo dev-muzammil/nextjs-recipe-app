@@ -16,9 +16,9 @@ const HeroSection = () => {
             <p className="mb-8 leading-relaxed">
               Craving something delicious? Look no further! Our recipe app is
               your go-to kitchen companion. From quick and easy weeknight
-              dinners to indulgent weekend feasts, we've got recipes to satisfy
-              every craving. With thousands of options to choose from, you'll
-              never get bored in the kitchen. Let's get cooking and create
+              dinners to indulgent weekend feasts, we&apos;ve got recipes to satisfy
+              every craving. With thousands of options to choose from, you&apos;ll
+              never get bored in the kitchen. Let&apos;s get cooking and create
               culinary magic together!
             </p>
             <div className="flex justify-center">
